@@ -12,12 +12,12 @@
 <div class="<%- scope %>-share" id="<%- scope %>Share">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=<%-sUrl%>&title=<%-sTitle%>&pic=<%-sPic%>" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=<%-sUrl%>&title=<%-sTitle%>&pic=<%-sPic%>" data-title=" Weibo">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
       <li>
-        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title=" WeChat">
           <i class="icon icon-weixin"></i>
         </a>
       </li>
@@ -47,7 +47,7 @@
 <% if(scope === 'global') { %>
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
+    <p>Scan to share with WeChat</p>
     <img src="<%- 'qrcode' in locals ? qrcode(sUrl) : '//api.qrserver.com/v1/create-qr-code/?data=' + sUrl  %>" alt="微信分享二维码">
 </div>
 <% } %>
