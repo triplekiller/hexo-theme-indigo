@@ -6,7 +6,7 @@ post:
   last_updated: "Last updated: "
 
 footer:
-  license: 'Licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International</a>'
+  license: 'Licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC 4.0</a>'
 
 tag:
   all: "All"
